@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buildprofiles SYSTEM "https://resources.jetbrains.com/writerside/1.0/build-profiles.dtd">
+<buildprofiles xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/build-profiles.xsd"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <variables>
+        <noindex-content>false</noindex-content>
+        <primary-color>#7011CC</primary-color>
+        <header-logo>logo.jpg</header-logo>
+        <custom-favicons>logo.jpg</custom-favicons>
+        <download-title>Saiba o que é um digimon</download-title>
+        <download-page>https://pt.wikipedia.org/wiki/Digimon</download-page>
+        <showDownloadButton>true</showDownloadButton>
+        <custom-css>custom.css</custom-css>
+    </variables>
+    <build-profile instance="hi">
+        <variables>
+            <noindex-content>true</noindex-content>
+            <og-image>logo.png</og-image>
+        </variables>
+    </build-profile>
+    <footer>
+        <copyright>2025 Digimon Corp.</copyright>
+        <notice>Digimon Ltda.</notice>
+
+        <social type="github"
+                href="https://github.com/Digimon-Vivo"/>
+    </footer>
+    <sitemap priority="0.35" change-frequency="monthly"/>
+    <llms-txt single-file="true"/>
+
+</buildprofiles>

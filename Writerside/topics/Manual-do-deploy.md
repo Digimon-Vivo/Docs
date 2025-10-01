@@ -1,0 +1,3 @@
+# 🍉 Manual do deploy
+
+Start typing here...
